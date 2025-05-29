@@ -546,29 +546,6 @@ footer {
       gap: 1rem;
   }
 }
-/* Navbar.css */
-
-/* Base Navbar Styles */
-.navbar {
-  padding: 1rem 0;
-  transition: all 0.3s ease;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.navbar-top {
-  background-color: rgba(26, 54, 93, 0.9);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-scrolled {
-  background-color: #1a365d !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  padding: 0.5rem 0;
-}
-
 /* Brand Styles */
 .navbar-brand {
   display: flex;
@@ -583,7 +560,7 @@ footer {
 }
 
 .firm-suffix {
-  color: #b38b59;
+  color: #476bb8;
   margin-left: 0.3rem;
 }
 
@@ -591,126 +568,8 @@ footer {
   margin-left: 0.5rem;
   font-size: 1.3rem;
 }
-
-/* Nav Items */
-.nav-item {
-  margin: 0 0.5rem;
-}
-
-.nav-link {
-  color: rgba(255, 255, 255, 0.9) !important;
-  font-weight: 500;
-  position: relative;
-  padding: 0.5rem 1rem !important;
-  transition: all 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #b38b59 !important;
-}
-
-.nav-link:after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #b38b59;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover:after {
-  width: 100%;
-}
-
-/* Dropdown Styles */
-.dropdown-menu {
-  background-color: #1a365d;
-  border: none;
-  border-radius: 0;
-}
-
-.dropdown-item {
-  color: white !important;
-  padding: 0.5rem 1rem;
-}
-
-.dropdown-item:hover {
-  background-color: rgba(179, 139, 89, 0.2) !important;
-  color: #b38b59 !important;
-}
-
-/* Special Buttons */
-.signup-btn {
-  background-color: #b38b59;
-  border-radius: 4px;
-  margin-left: 0.5rem;
-  color: white !important;
-}
-
-.signup-btn:hover {
-  background-color: #9a7548;
-  color: white !important;
-}
-
-.signup-btn:after {
-  display: none;
-}
-
-/* Mobile Menu */
-.navbar-toggler {
-  border: none;
-  color: white;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-  .navbar-collapse {
-    background-color: #1a365d;
-    padding: 1rem;
-    margin-top: 0.5rem;
-    border-radius: 4px;
-  }
-  
-  .nav-item {
-    margin: 0.5rem 0;
-  }
-  
-  .signup-btn {
-    margin-left: 0;
-    margin-top: 0.5rem;
-    display: block;
-    text-align: center;
-  }
-  
-  .dropdown-menu {
-    background-color: rgba(26, 54, 93, 0.9);
-    margin-left: 1rem;
-  }
-}
-.logout-btn {
-  background: none;
-  border: none;
-  color: #dc3545;
-  cursor: pointer;
-  padding: 8px 16px;
-}
-.signin-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 2rem;
-}
-
 .uiverse-card {
-  background: white;
+  background: rgb(30, 59, 187);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   width: 100%;
@@ -846,5 +705,3 @@ input:focus {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
-
-
